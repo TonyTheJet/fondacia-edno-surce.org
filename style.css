@@ -4,3 +4,57 @@ Theme URI: https://www.fondacia-edno-surce.org
 Author: Tony Anderson
 Description: Basic informational site for One Heart Bulgaria
 */
+
+a {
+    color: #b50001;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #b50001;
+    text-decoration: underline;
+}
+
+body {
+    color: #404040;
+    font-size: 14px;
+}
+
+/* header */
+#header {
+    background: #404040;
+    color: #fff;
+    left: 0;
+    margin: 0;
+    padding: 16px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* end header */
+
+/* main content */
+#main-content {
+    padding-top: 75px;
+}
+/* end main content */
+
+/* footer */
+#footer {
+    background: #404040;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    margin: 0;
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer a:hover, a:active {
+    color: #fff;
+}
+/* end footer */

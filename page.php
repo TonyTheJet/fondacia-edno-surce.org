@@ -1,6 +1,8 @@
 <?php
 	get_header();
 ?>
-content here
+    <div class="container" id="main-content">
+        Content coming soon!
+    </div>
 <?php
 	get_footer();
