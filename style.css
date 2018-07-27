@@ -55,6 +55,10 @@ p {
     padding: 40px 0 80px;
 }
 
+.logged-in #main-content {
+    padding-top: 80px;
+}
+
 #main-content .post-img {
     margin: 0 0 16px;
 }

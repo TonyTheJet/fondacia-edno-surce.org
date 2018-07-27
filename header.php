@@ -8,7 +8,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php if (is_user_logged_in()): ?>class="logged-in"<?php endif; ?>>
     <div class="container-fluid">
         <div class="row" id="header">
             <div class="col-sm-5 col-md-4 col-lg-3 col-xl-2">
