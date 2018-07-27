@@ -52,11 +52,11 @@ p {
 
 /* main content */
 #main-content {
-    padding: 40px 0 80px;
+    padding: 80px 0;
 }
 
 .logged-in #main-content {
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 #main-content .post-img {
