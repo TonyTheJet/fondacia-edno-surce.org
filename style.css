@@ -5,6 +5,9 @@ Author: Tony Anderson
 Description: Basic informational site for One Heart Bulgaria
 */
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
 a {
     color: #b50001;
     text-decoration: none;
@@ -16,7 +19,21 @@ a:hover, a:active {
 
 body {
     color: #404040;
+    font-family: 'Droid Sans', sans-serif;
     font-size: 14px;
+}
+
+h1 {
+    color: #b50001;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 16px 0;
 }
 
 /* header */
@@ -29,12 +46,26 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 /* end header */
 
 /* main content */
 #main-content {
-    padding-top: 75px;
+    padding: 40px 0 80px;
+}
+
+#main-content .post-img {
+    margin: 0 0 16px;
+}
+
+.home-section {
+    border-bottom: 3px solid #b50001;
+    padding: 16px 0;
+}
+
+.home-section:last-child {
+    border-bottom: none;
 }
 /* end main content */
 
@@ -48,6 +79,7 @@ body {
     padding: 16px 0;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 #footer a {
